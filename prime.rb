@@ -4,6 +4,8 @@ def prime?(integer)
     return false
   elsif n == 0 
     return false
+  elsif n == 1 
+  return false
   elsif (n / n == 1) && (n / 1 == n)
     return true
   else
